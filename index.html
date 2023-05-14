@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>World of Grimrock</title>
+        <!--<link href="style2.css" rel="stylesheets" type="text/css"/>-->
+
+<style type="text/css">
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(fantasyGate.jpg);
+    background-repeat: no-repeat;
+  }
+
+#gate {
+    background-image: url(fantasyGate.jpg);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+button {
+    color: rgb(2, 2, 2);
+    background-image: url(R.jpg);
+    font-size: 45px;
+  }
+
+#question-box {
+    background-image: url(R.jpg);
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 550px;
+    height: 165px;
+    z-index: 1;
+    position: absolute;
+    margin-top: -50px;
+}
+</style>
+
+</head>
+
+<body>
+    <div id="question-box">
+        <h2>
+            Hello Adventurer or Traveler, <br>
+            You have made it to the gate of Grimrock. <br>
+            Do you wish to enter?
+            <h3>If so click below</h3>
+        </h2>
+    </div>
+
+    <img src="fantasyGate.jpg"/>
+    <a href="homepage.html">
+        <br>
+        <div id="gate">
+            <button>Enter the world?</button>
+         </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
